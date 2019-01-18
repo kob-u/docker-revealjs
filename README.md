@@ -7,13 +7,13 @@ This image using markdown mode.
 mount `presentation.md` and `assets` dir.
 
 ```
-sudo docker run -p 8000:8000 -v presentation.md:/presentation.md -v assets:/assets --rm kob-u/docker-revealjs
+sudo docker run -p 8000:8000 -v /path/to/your/presentation.md:/presentation.md -v /path/to/your/assets:/assets --rm kobd/docker-revealjs
 ```
 
 if you want to customize [index.html](https://github.com/hakimel/reveal.js/blob/master/index.html)
 
 ```
-sudo docker run -p 8000:8000 -v index.html:/index.html -v presentation.md:/presentation.md -v assets:/assets --rm kob-u/docker-revealjs
+sudo docker run -p 8000:8000 -v index.html:/index.html -v /path/to/your/presentation.md:/presentation.md -v /path/to/your/assets:/assets --rm kobd/docker-revealjs
 ```
 
 
