@@ -1,6 +1,7 @@
 # docker-revealjs
 
 Dockerized [reveal.js](https://github.com/hakimel/reveal.js).  
+This image using markdown mode.
 
 ### how to use
 mount `presentation.md` and `assets` dir.
