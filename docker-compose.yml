@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  revealjs:
+    image: koba1t/revealjs-md
+    volumes:
+      - ./presentation.md:/presentation.md
+      - ./assets:/assets
