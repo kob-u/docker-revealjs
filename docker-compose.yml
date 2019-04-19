@@ -6,3 +6,5 @@ services:
     volumes:
       - ./presentation.md:/presentation.md
       - ./assets:/assets
+    ports:
+      - "80:8000"
