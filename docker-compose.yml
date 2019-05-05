@@ -4,7 +4,7 @@ services:
   revealjs:
     image: koba1t/revealjs-md
     volumes:
-      - ./presentation.md:/presentation.md
-      - ./assets:/assets
+      - ./presentation.md:/usr/share/nginx/html/presentation.md
+      - ./assets:/usr/share/nginx/html/assets
     ports:
-      - "80:8000"
+      - "80:80"
