@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-ARG version="3.8.0"
+ARG version="3.9.2"
 
 RUN set -x &&\
     apk update && apk add --no-cache curl &&\
